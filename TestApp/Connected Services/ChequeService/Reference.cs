@@ -126,17 +126,17 @@ namespace TestApp.ChequeService {
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ChequeService.IChequeService")]
     public interface IChequeService {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IChequeService/GetLastChecks", ReplyAction="http://tempuri.org/IChequeService/GetLastChecksResponse")]
-        TestApp.ChequeService.Cheque[] GetLastChecks(int count);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IChequeService/GetLastCheques", ReplyAction="http://tempuri.org/IChequeService/GetLastChequesResponse")]
+        TestApp.ChequeService.Cheque[] GetLastCheques(int count);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IChequeService/GetLastChecks", ReplyAction="http://tempuri.org/IChequeService/GetLastChecksResponse")]
-        System.Threading.Tasks.Task<TestApp.ChequeService.Cheque[]> GetLastChecksAsync(int count);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IChequeService/GetLastCheques", ReplyAction="http://tempuri.org/IChequeService/GetLastChequesResponse")]
+        System.Threading.Tasks.Task<TestApp.ChequeService.Cheque[]> GetLastChequesAsync(int count);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IChequeService/ReceiveCheck", ReplyAction="http://tempuri.org/IChequeService/ReceiveCheckResponse")]
-        void ReceiveCheck(TestApp.ChequeService.Cheque cheque);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IChequeService/PassCheque", ReplyAction="http://tempuri.org/IChequeService/PassChequeResponse")]
+        void PassCheque(TestApp.ChequeService.Cheque cheque);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IChequeService/ReceiveCheck", ReplyAction="http://tempuri.org/IChequeService/ReceiveCheckResponse")]
-        System.Threading.Tasks.Task ReceiveCheckAsync(TestApp.ChequeService.Cheque cheque);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IChequeService/PassCheque", ReplyAction="http://tempuri.org/IChequeService/PassChequeResponse")]
+        System.Threading.Tasks.Task PassChequeAsync(TestApp.ChequeService.Cheque cheque);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -166,20 +166,20 @@ namespace TestApp.ChequeService {
                 base(binding, remoteAddress) {
         }
         
-        public TestApp.ChequeService.Cheque[] GetLastChecks(int count) {
-            return base.Channel.GetLastChecks(count);
+        public TestApp.ChequeService.Cheque[] GetLastCheques(int count) {
+            return base.Channel.GetLastCheques(count);
         }
         
-        public System.Threading.Tasks.Task<TestApp.ChequeService.Cheque[]> GetLastChecksAsync(int count) {
-            return base.Channel.GetLastChecksAsync(count);
+        public System.Threading.Tasks.Task<TestApp.ChequeService.Cheque[]> GetLastChequesAsync(int count) {
+            return base.Channel.GetLastChequesAsync(count);
         }
         
-        public void ReceiveCheck(TestApp.ChequeService.Cheque cheque) {
-            base.Channel.ReceiveCheck(cheque);
+        public void PassCheque(TestApp.ChequeService.Cheque cheque) {
+            base.Channel.PassCheque(cheque);
         }
         
-        public System.Threading.Tasks.Task ReceiveCheckAsync(TestApp.ChequeService.Cheque cheque) {
-            return base.Channel.ReceiveCheckAsync(cheque);
+        public System.Threading.Tasks.Task PassChequeAsync(TestApp.ChequeService.Cheque cheque) {
+            return base.Channel.PassChequeAsync(cheque);
         }
     }
 }

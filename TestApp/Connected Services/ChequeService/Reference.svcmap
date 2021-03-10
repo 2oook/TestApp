@@ -23,7 +23,7 @@
   </MetadataSources>
   <Metadata>
     <MetadataFile FileName="ChequeService.xsd" MetadataType="Schema" ID="a0722f9e-10eb-4bfa-bdec-7764aa02d2c6" SourceId="1" SourceUrl="http://localhost:59851/ChequeService.svc?xsd=xsd0" />
-    <MetadataFile FileName="ChequeService1.xsd" MetadataType="Schema" ID="ff7694b4-5d7b-423a-bee2-82e4b1488026" SourceId="1" SourceUrl="http://localhost:59851/ChequeService.svc?xsd=xsd3" />
+    <MetadataFile FileName="ChequeService1.xsd" MetadataType="Schema" ID="d21a0382-35d1-4a39-be84-fe77c9e2ddc6" SourceId="1" SourceUrl="http://localhost:59851/ChequeService.svc?xsd=xsd3" />
     <MetadataFile FileName="ChequeService2.xsd" MetadataType="Schema" ID="f22c84e8-8b19-41cd-b292-693095e13456" SourceId="1" SourceUrl="http://localhost:59851/ChequeService.svc?xsd=xsd2" />
     <MetadataFile FileName="ChequeService3.xsd" MetadataType="Schema" ID="f0afbe73-c933-47f5-a855-8ae7619bc223" SourceId="1" SourceUrl="http://localhost:59851/ChequeService.svc?xsd=xsd1" />
     <MetadataFile FileName="CheckService.wsdl" MetadataType="Wsdl" ID="86729313-6c21-473e-ba86-dc2cdb736db8" SourceId="1" SourceUrl="http://localhost:59851/ChequeService.svc?wsdl" />

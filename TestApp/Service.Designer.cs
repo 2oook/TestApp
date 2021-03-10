@@ -29,8 +29,11 @@ namespace TestApp
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            // 
+            // Service
+            // 
             this.ServiceName = "Service";
+
         }
 
         #endregion

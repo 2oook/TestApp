@@ -1,0 +1,1 @@
+﻿{"Articles":["article1","article2","article3","article4"],"Discount":6,"Id":"63f247e4-34cf-48e0-8bc5-b2f452e4ca4e","Number":"456324","Summ":9998}
